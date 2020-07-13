@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            Assignment
+        </title>
+    </head>
+    <body>
+        <h1>Date and Time</h1>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            var today= new Date();
+            var date= 'Today is:'+today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+            var time ='Current time is:'+ today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            document.getElementById("p1").innerHTML= date; 
+            document.getElementById("p2").innerHTML= time;
+        </script>
+    </body>
+</html>
